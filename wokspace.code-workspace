@@ -1,0 +1,35 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"extensions": {
+		"recommendations": [
+			"ms-vscode.cpptools",
+			"twxs.cmake",
+			"eamodio.gitlens",
+			"mhutchie.git-graph",
+			"donjayamanne.githistory",
+			"seunlanlege.action-buttons",
+			"vscode-icons-team.vscode-icons",
+			"webfreak.debug"
+		]
+	},
+	"settings": {
+		"actionButtons": {
+			// "defaultColor": "#ff0034", 
+			"defaultColor": "#FFFFFF",
+			"commands": [
+				{
+					"name": "Run Script",
+					"color": "lime",
+					"command": "python ${workspaceFolder}/src/adl_pictomatrix.py"
+				}
+
+			]
+		},
+		"editor.fontSize": 12,
+		"terminal.integrated.fontSize": 11
+	}
+}
